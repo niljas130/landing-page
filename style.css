@@ -128,7 +128,11 @@ a {
     font-style: italic;
     font-weight: lighter;
     text-align: justify;
-   width: 750px;
+    width: 750px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 15px;
 }
 .quote{ 
     background-color: #e5e7eb;
@@ -143,6 +147,7 @@ a {
 .thor{
     font-size: 25px;
     font-weight: bold;
+    font-style: normal;
 }
 
 .action {
